@@ -4,7 +4,6 @@ const ArticleCard = ({ article }) => {
       <h2>{article.title}</h2>
       <p>By {article.author}</p>
       <img src={article.article_img_url} alt="article image" />
-    
     </li>
   );
 };

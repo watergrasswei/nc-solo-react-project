@@ -8,27 +8,15 @@ import Home from "./components/Home";
 function App() {
   return (
     <>
-  <Header />
+      <Header />
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/thearticlelist" element={<TheArticleList />} />
-         </Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/thearticlelist" element={<TheArticleList />} />
+      </Routes>
     </>
-    
-    
-
-    // <BrowserRouter>
-    //   <Header />
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/thearticlelist" element={<TheArticleList />} />
-    //   </Routes>
-    // </BrowserRouter>
   );
 }
-
-
 
 const TheArticleList = () => {
   return (

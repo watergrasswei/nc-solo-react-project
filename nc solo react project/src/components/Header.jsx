@@ -1,7 +1,9 @@
-const Header =()=>{
-    return <header>
-        <p>NC News</p>  
+const Header = () => {
+  return (
+    <header>
+      <p>NC News</p>
     </header>
-}
+  );
+};
 
-export default Header
+export default Header;
